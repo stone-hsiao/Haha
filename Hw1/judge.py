@@ -8,7 +8,7 @@ def read(filename):
 def run(ifn):
     #c = 'python3 -B AC_Code.py'
     c = 'python -B AC_Code.py'
-    c = 'adder.exe'
+    c = 'AC_code.exe'
     return os.system("%s < %s > %s"%(c,ifn,'slave.out'))
 
 def main():
